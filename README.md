@@ -21,7 +21,7 @@ git push -u origin main
 
 ## Overview
 
-Containerize and deploy this application in the `app` directory to AWS ECS.
+Containerize and deploy the application in the `app` directory to AWS ECS.
 
 Utilize Pulumi (Python or Typescript) for IaC.
 
@@ -33,7 +33,7 @@ If the application crashes, it should trigger an alarm.
 
 ## Running the application
 
-Running this application locally requires [Node.js](https://nodejs.org/en). Once Node.js is installed, go into the `app` directory and run the follow commands:
+Running this application requires [Node.js](https://nodejs.org/en). Once Node.js is installed, go into the `app` directory and run the follow commands:
 
 `npm install` to install the project dependendencies
 
@@ -47,4 +47,4 @@ Create a `.env` file in the `app` directory, for example:
 
 ## Bonus
 
-Deploy the service for more than one CLIENT_ID inside the same Pulumi stack.
+Deploy the service for more than one `CLIENT_ID` inside the same Pulumi stack.
