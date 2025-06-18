@@ -1,3 +1,24 @@
+## Submitting your work
+
+**❗ Do NOT fork this repo — forks are public and searchable.**
+
+### Option A: Use this as a template
+
+1. Click **“Use this template”** on the GitHub repo.
+2. Create a **private** repo.
+3. Name it something like `devops-takehome-<yourname>`.
+
+### Option B: Manual clone + push
+
+```
+git clone https://github.com/mikemonaco/devops-takehome.git
+cd devops-takehome
+rm -rf .git
+git init
+git remote add origin git@github.com:<your-username>/<private-repo>.git
+git push -u origin main
+```
+
 ## Overview
 
 Containerize and deploy this application in the `app` directory to AWS ECS.
