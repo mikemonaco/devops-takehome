@@ -11,12 +11,12 @@ if (!clientId) {
 }
 
 const log = () => {
-  const crash = Math.random() < 0.01;
+  const crash = Math.random() < 0.001;
   if (crash) {
     console.error(`CRASH: ${clientId} service crashed unexpectedly`);
     process.exit(1);
   }
-  const fail = Math.random() < 0.05;
+  const fail = Math.random() < 0.04;
   if (fail) {
     console.error(`FAIL: ${clientId} service internal error`);
   } else {
